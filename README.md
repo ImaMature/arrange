@@ -53,7 +53,18 @@ MARKDOWN 정리, 실습 for README.md
 [blog]: https://lsh424.tistory.com/
 
 # 9. 이미지 추가하기
-![이탈리아 포지타노](https://user-images.githubusercontent.com/31477658/85016059-f962aa80-b1a3-11ea-8c91-dacba2666b78.jpeg)
+**1) 깃허브 레포지토리에서 이슈 클릭**<br>
+![image](https://user-images.githubusercontent.com/88884623/136684899-e297a290-1517-4f9a-bc58-1a5c8bb41d25.png)
+<br><br>**2) New Issue 클릭**
+![image](https://user-images.githubusercontent.com/88884623/136684922-5a9e2637-017b-4783-bceb-f43a2e339ec8.png)
+<br><br>**3) 이미지 드래그 & 드랍**
+![드래그앤드랍](https://user-images.githubusercontent.com/88884623/136685051-52ccaadc-878b-483e-9221-14b413fe9bc2.png)
+<br><br>**4) 생성된 텍스트를 README.me에 복사&붙여넣기**
+![image](https://user-images.githubusercontent.com/88884623/136685101-bdd0f50a-4c4a-4293-9b24-53a3fe68de31.png)
+![ad](https://user-images.githubusercontent.com/88884623/136685420-4e93d35b-7778-42d9-bca6-5e2c8af0735a.png)
+<br><br>
+**결과물**
+<br>![navideul(butterflies)](https://user-images.githubusercontent.com/88884623/136684788-7846f309-6fc1-4c9b-8d7a-98b155cf100f.jpg)<br>
 
 ### 이미지 사이즈 조절
 <img src="https://user-images.githubusercontent.com/31477658/85016059-f962aa80-b1a3-11ea-8c91-dacba2666b78.jpeg"  width="700" height="370">
