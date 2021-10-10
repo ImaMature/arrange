@@ -67,10 +67,13 @@ MARKDOWN 정리, 실습 for README.md
 <br>![navideul(butterflies)](https://user-images.githubusercontent.com/88884623/136684788-7846f309-6fc1-4c9b-8d7a-98b155cf100f.jpg)<br>
 
 ### 이미지 사이즈 조절
-<img src="https://user-images.githubusercontent.com/31477658/85016059-f962aa80-b1a3-11ea-8c91-dacba2666b78.jpeg"  width="700" height="370">
+<img src="https://user-images.githubusercontent.com/88884623/136684788-7846f309-6fc1-4c9b-8d7a-98b155cf100f.jpg" width="600" height="300"><br>
+\<img src="이미지 링크" width="너비 " height="높이">\
+width : 가로 사이즈   
+height : 세로 사이즈  
 
 ### 이미지 파일로 추가하기
-<img src="Capri_Island.jpeg" width="700"><br>
+<img src="navideul(butterflies).jpg" width="700"><br>
 \*프로젝트 폴더 안에 넣어서 추가할 때 사용.
 
 # 10. 코드블럭 추가하기
