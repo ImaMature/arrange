@@ -124,3 +124,7 @@ window key + . (윈도우 로고 키 + 마침표)
 ### 정리내용(출처)
 [sh9404님의 블로그]
 (https://lsh424.tistory.com/37)
+
+
+# 2021.10.26
+jvm정리해본 jvm.pdf 
