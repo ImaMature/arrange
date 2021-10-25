@@ -1,4 +1,4 @@
 -[Markdown작성법✏✏✏](markdown.md#20211010)
 
 # 2021.10.26
-jvm정리해본 jvm.pdf 
+-[JVM 정리(미완)](JVM/whatisJVM.png)
