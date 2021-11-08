@@ -1,5 +1,5 @@
 # 인터페이스
-## 
+## 인터페이스 ATM 
 ```java
 package Interface;
 
@@ -23,7 +23,7 @@ public interface ATM {
 	}
 }
 ```
-
+## 인터페이스를 구현할 클래스
 ```java
 package Interface;
 
@@ -60,7 +60,7 @@ public class 은행 implements ATM{
 	}
 
 ```
-
+## 상속받은 클래스1
 ```java
 package Interface;
 
@@ -77,7 +77,7 @@ public class 국민은행 extends 은행{
 	}
 }
 ```
-
+## 상속받은 클래스2
 ```java
 package Day09;
 
