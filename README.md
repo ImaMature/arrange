@@ -5,4 +5,4 @@
 
 -[JVM 정리(미완)](JVM/whatisJVM.png)
 
--[인터페이스](interface.md)
+-[인터페이스](MDfiles/interface.md)
