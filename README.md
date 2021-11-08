@@ -4,3 +4,5 @@
 -[ClassPath에러났을 때](MDfiles/ClassPathErr.md)
 
 -[JVM 정리(미완)](JVM/whatisJVM.png)
+
+-[인터페이스](interface.md)
