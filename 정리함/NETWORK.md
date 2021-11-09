@@ -16,7 +16,7 @@
 >>ex  
 >>집주소 (집 1개 -> 1개 주소) : 컴퓨터 주소 (컴퓨터 1개 -> 1개 IP)  
 >>택배 (쿠팡 -> 집 )         : 통신 (PC방 -> 학원)  
->>네이버접속 (학원 ip ---> 네이버 ip)
+>>네이버접속 (학원 ip ---> 네이버 ip 서버실)
 >>ip : 숫자 0~255, 4자리, 구분
 >>ip는 사람이 사이트마다 외우기 힘들기 때문에 문자로 변환
 >>ip ---> 문자 : 도메인 주소(DNS)  
@@ -34,6 +34,7 @@ import java.net.InetAddress;
 public class NetworkStudy {
 
 public static void main(String[] args) {
+
 		//1. 현재 pc의 호스트 가져오기
 		try {
 			InetAddress inetAddress = InetAddress.getLocalHost();//무조건 예외처리
@@ -46,6 +47,16 @@ public static void main(String[] args) {
 			System.out.println("네이버 회사의 정보객체 : " + inetAddress2);
 			System.out.println("네이버 회사의 이름 : " + inetAddress2.getHostName());
 			System.out.println("네이버 회사의 주소 : " + inetAddress2.getHostAddress());
+			
+		//3. 네이버 회사의 다수 IP 확인
+			InetAddress[] inetAddresses = InetAddress.getAllByName("www.naver.com");
+			for(InetAddress address : inetAddresses) {
+				System.out.println("네이버 배열 내 PC 이름 : " + address.getHostName());
+				System.out.println("네이버 배열 내 PC 주소 : " + address.getHostAddress());
+			}
+		//4. 페이스북 회사의 IP 확인	
+			InetAddress inetAddress3 = InetAddress.getByName("www.facebook.com");
+			System.out.println("페이스북 pc의 정보객체 : " + inetAddress3);	
 		} catch (Exception e) {
 			// TODO: handle exception
 		}
@@ -56,3 +67,10 @@ public static void main(String[] args) {
 ![image](https://user-images.githubusercontent.com/88884623/140851737-adc6d089-eb47-4bde-876d-260d88af5a14.png)
 
 
+## 통신용 서버 만들기
+>ServerSocket 클래스 사용  
+>소켓 : 네트워크 상에서 동작하는 프로그램들(PC) 간의 통신의 종착점  
+>	클라이언트 소켓에서 연결 요청(올바른 연결일 경우)을 하면 서버 소켓이 허락해서 통신할 수 있도록 연결  
+>
+```java
+```
