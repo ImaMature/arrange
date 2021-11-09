@@ -50,7 +50,9 @@ public static void main(String[] args) {
 			// TODO: handle exception
 		}
 	}
->```  
-## 실행 결과
->![image](https://user-images.githubusercontent.com/88884623/140851400-e7abd0e8-8b3a-4ff5-93d6-a33d761599c1.png)
+```  
+
+## 실행 결과 
+![image](https://user-images.githubusercontent.com/88884623/140851737-adc6d089-eb47-4bde-876d-260d88af5a14.png)
+
 
