@@ -80,4 +80,4 @@ public static void main(String[] args) {
 |int getActualMaximum(int field)|현재 객체의 특정 필드의 최대 값을 반환한다.|
 
 ### 참조
-문홍의 공부장[https://moonong.tistory.com/10]
+[문홍의 공부장](https://moonong.tistory.com/10])
