@@ -15,4 +15,4 @@
 
 -[네트워크](정리함/NETWORK.md)
 
--[javafx](MDfiles/javafx.md)
+-[javafx MVC](MDfiles/javafx.md)
