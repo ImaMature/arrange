@@ -3,8 +3,6 @@
 
 -[ClassPath에러났을 때](MDfiles/ClassPathErr.md)
 
--[JVM 정리(미완)](JVM/whatisJVM.png)
-
 -[인터페이스](MDfiles/interface.md)
 
 -[인터페이스2](MDfiles/interface2.md)
@@ -16,3 +14,5 @@
 -[예외처리](MDfiles/Exception.md)
 
 -[네트워크](정리함/NETWORK.md)
+
+-[javafx](MDfiles/javafx.md)
